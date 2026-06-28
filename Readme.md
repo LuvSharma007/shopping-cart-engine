@@ -1,4 +1,3 @@
-
 <div align="center">
 
 # Shopping Cart Engine
@@ -212,6 +211,8 @@ The application uses MongoDB with the following main collections:
 | `carts` | User shopping carts |
 | `users` | User basic details |
 | `session` | User session data |
+
+<img width="1755" height="1182" alt="db_schema" src="https://github.com/user-attachments/assets/080a765f-37bc-4715-9c7e-32110311fa1f" />
 
 ---
 
