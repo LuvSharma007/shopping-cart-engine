@@ -38,7 +38,6 @@
   - [4. Checkout](#4-checkout)
 - [Product Categories](#-product-categories)
 - [Additional Features](#-additional-features)
-- [License](#-license)
 
 ---
 
