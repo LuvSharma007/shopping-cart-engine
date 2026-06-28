@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "productName": "Premium Wireless Headphones",
+      "price": 2499,
+      "stockLeft": 45,
+      "category": "audio"
+    },
+    {
+      "productName": "Moto Edge 50",
+      "price": 35000,
+      "stockLeft": 12,
+      "category": "mobile"
+    },
+    {
+      "productName": "Mechanical Gaming Keyboard",
+      "price": 2400,
+      "stockLeft": 80,
+      "category": "gaming"
+    },
+    {
+      "productName": "Wired Earphone Boat",
+      "price": 800,
+      "stockLeft": 80,
+      "category": "audio"
+    },
+    {
+      "productName": "RTX-500 Graphics Card",
+      "price": 10000,
+      "stockLeft": 80,
+      "category": "gaming"
+    },
+    {
+      "productName": "Redmi 15 Pro",
+      "price": 20000,
+      "stockLeft": 80,
+      "category": "mobile"
+    },
+    {
+      "productName": "Iphone 15 pro",
+      "price": 80000,
+      "stockLeft": 80,
+      "category": "mobile"
+    },
+    {
+      "productName": "Cotton Black T-shirt",
+      "price": 1200,
+      "stockLeft": 80,
+      "category": "fashion"
+    },
+    {
+      "productName": "HP-14s Think&Light",
+      "price": 40000,
+      "stockLeft": 80,
+      "category": "laptop"
+    },
+    {
+      "productName": "Lenovo Thinkpad",
+      "price": 45000,
+      "stockLeft": 80,
+      "category": "laptop"
+    },
+    {
+      "productName": "Boat Headset",
+      "price": 2000,
+      "stockLeft": 80,
+      "category": "audio"
+    },
+    {
+      "productName": "White Shirt",
+      "price": 3000,
+      "stockLeft": 80,
+      "category": "fashion"
+    },
+    {
+      "productName": "Acer Tab",
+      "price": 12000,
+      "stockLeft": 80,
+      "category": "tablet"
+    }
+  ]
+}
