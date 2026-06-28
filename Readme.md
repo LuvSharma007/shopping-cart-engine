@@ -225,7 +225,7 @@ Follow these steps **in sequence** to test the application:
 Verify the server is running:
 
 ```http
-GET http://localhost:3000
+GET /
 ```
 
 **Expected Response:**
@@ -244,7 +244,7 @@ Items in the database are **shared across all users**. There are two ways to add
 #### Option A: Add Single Item
 
 ```http
-POST http://localhost:3000/api/v1/item/add
+POST /api/v1/item/add
 Content-Type: application/json
 ```
 
@@ -261,7 +261,7 @@ Content-Type: application/json
 #### Option B: Add Bulk Items (Recommended)
 
 ```http
-POST http://localhost:3000/api/v1/item/addBulk
+POST /api/v1/item/addBulk
 Content-Type: application/json
 ```
 
@@ -276,7 +276,7 @@ Content-Type: application/json
 #### Add Single Item to Cart
 
 ```http
-POST http://localhost:3000/api/v1/cart/add
+POST /api/v1/cart/add
 Content-Type: application/json
 ```
 
@@ -291,7 +291,7 @@ Content-Type: application/json
 #### Add Multiple Items to Cart (Batch)
 
 ```http
-POST http://localhost:3000/api/v1/cart/addBulk
+POST /api/v1/cart/addBulk
 Content-Type: application/json
 ```
 
@@ -306,7 +306,7 @@ Content-Type: application/json
 #### Delete Item from Cart
 
 ```http
-DELETE http://localhost:3000/api/v1/cart/deleteItem
+DELETE /api/v1/cart/deleteItem
 Content-Type: application/json
 ```
 
@@ -324,7 +324,7 @@ Content-Type: application/json
 Get your cart details with tier info, offers, perks, and discounts:
 
 ```http
-GET http://localhost:3000/api/v1/checkout/details
+GET /api/v1/checkout/details
 ```
 
 > ⚠️ **Prerequisite:** You must have items in your cart (Step 3) before calling this endpoint.
