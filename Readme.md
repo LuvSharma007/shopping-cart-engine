@@ -339,6 +339,7 @@ Content-Type: application/json
 ---
 
 ### 4. Checkout
+> ⚠️ **Prerequisite:** You must have items in your cart (Step 3) before calling this endpoint.
 
 Get your cart details with tier info, offers, perks, and discounts:
 
@@ -346,18 +347,28 @@ Get your cart details with tier info, offers, perks, and discounts:
 GET /api/v1/checkout/details
 ```
 
-> ⚠️ **Prerequisite:** You must have items in your cart (Step 3) before calling this endpoint.
 
 ## Additional Features
 
-| Feature | Implementation |
-|---------|---------------|
-| 🛡️ **Rate Limiting** | Protected by `express-rate-limiter` to prevent abuse |
-| 🔐 **Session Security** | Secure sessions with configurable secret keys |
-| ✅ **Input Validation** | All API inputs validated with Zod schemas |
-| 🐳 **Containerized** | One-command setup with Docker Compose |
-| 📦 **Bulk Operations** | Efficient batch processing for items and cart |
-| 💰 **Dynamic Pricing** | Tier-based pricing engine with offers & discounts |
+### Rate Limiting
+
+The API is protected by `express-rate-limiter` package to prevent abuse and ensure fair usage for all users.
+
+| Property | Value | Description |
+|----------|-------|-------------|
+| **Window** | 15 minutes | Time frame for counting requests |
+| **Max Requests** | 100 requests | Allowed requests per window per IP |
+| **Skip Failed** | `false` | Failed requests also count toward the limit |
+| **Headers** | `true` | Rate limit info included in response headers |
+
+**How it works:** Each IP address is limited to **100 requests per 15-minute window**. If the limit is exceeded, the API responds with `429 Too Many Requests`.
+
+**Response Headers included:**
+```http
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 95
+X-RateLimit-Reset: 1719993600
+
 <div align="center">
 </div>
 
