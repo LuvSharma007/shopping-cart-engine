@@ -364,11 +364,6 @@ The API is protected by `express-rate-limiter` package to prevent abuse and ensu
 
 **How it works:** Each IP address is limited to **100 requests per 15-minute window**. If the limit is exceeded, the API responds with `429 Too Many Requests`.
 
-**Response Headers included:**
-```http
-X-RateLimit-Limit: 100
-X-RateLimit-Remaining: 95
-X-RateLimit-Reset: 1719993600
 
 <div align="center">
 </div>
