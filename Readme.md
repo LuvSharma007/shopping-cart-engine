@@ -153,7 +153,6 @@ you just have to setup secret , everything is predefine in .env.example
 ```bash
 # Example .env content
 SESSION_SECRET=your_super_secret_key_here_change_this
-# ... other variables
 ```
 
 > **Note:** Dont forget to set your session_key in .env file
