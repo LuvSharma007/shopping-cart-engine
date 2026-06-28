@@ -352,6 +352,7 @@ GET /api/v1/checkout/details
 
 ### Rate Limiting
 
+
 The API is protected by `express-rate-limiter` package to prevent abuse and ensure fair usage for all users.
 
 | Property | Value | Description |
