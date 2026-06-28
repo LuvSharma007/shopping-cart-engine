@@ -220,6 +220,25 @@ Follow these steps **in sequence** to test the application:
 
 ---
 
+## Product Categories
+
+Items can belong to any of the following categories:
+
+| Category | Description |
+|----------|-------------|
+| `mobile` | Mobile phones & smartphones |
+| `laptop` | Laptops & notebooks |
+| `tablet` | Tablets & e-readers |
+| `accessories` | Mobile & laptop accessories |
+| `wearable` | Smartwatches & fitness bands |
+| `audio` | Headphones, earphones & speakers |
+| `gaming` | Gaming consoles & accessories |
+| `fashion` | Fashion & lifestyle products |
+
+---
+
+---
+
 ### 1. Health Check
 
 Verify the server is running:
@@ -328,25 +347,6 @@ GET /api/v1/checkout/details
 ```
 
 > ⚠️ **Prerequisite:** You must have items in your cart (Step 3) before calling this endpoint.
-
----
-
-## Product Categories
-
-Items can belong to any of the following categories:
-
-| Category | Description |
-|----------|-------------|
-| `mobile` | Mobile phones & smartphones |
-| `laptop` | Laptops & notebooks |
-| `tablet` | Tablets & e-readers |
-| `accessories` | Mobile & laptop accessories |
-| `wearable` | Smartwatches & fitness bands |
-| `audio` | Headphones, earphones & speakers |
-| `gaming` | Gaming consoles & accessories |
-| `fashion` | Fashion & lifestyle products |
-
----
 
 ## Additional Features
 
