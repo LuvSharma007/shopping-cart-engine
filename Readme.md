@@ -150,6 +150,7 @@ cp .env.example .env
 ```
 
 Then, **open `.env` and set your secret key** for session management:
+you just have to setup secret , everything is predefine in .env.example
 
 ```bash
 # Example .env content
@@ -234,8 +235,6 @@ Items can belong to any of the following categories:
 | `audio` | Headphones, earphones & speakers |
 | `gaming` | Gaming consoles & accessories |
 | `fashion` | Fashion & lifestyle products |
-
----
 
 ---
 
